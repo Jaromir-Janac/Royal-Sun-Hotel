@@ -11242,7 +11242,7 @@ body {
 
 .navbar {
   font-weight: 100;
-  min-height: 10vh;
+  height: 80px;
   z-index: 3;
   background-color: #fff;
 }
@@ -11258,7 +11258,7 @@ body {
 
 #showcase {
   background: url("../images/hotel.jpg") bottom center/cover no-repeat;
-  min-height: 90vh;
+  min-height: 92vh;
   color: #fff;
   text-shadow: 1px;
   font-weight: bold;
@@ -11289,6 +11289,9 @@ body {
 
 #gallery .carousel-caption {
   background-color: rgba(0, 0, 0, 0.4);
+}
+#gallery .carousel-item {
+  max-height: 90vh;
 }
 
 /*# sourceMappingURL=style.css.map */
